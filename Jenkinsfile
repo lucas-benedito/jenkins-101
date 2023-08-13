@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-agent-python'
+            label 'rhel8-agent'
             }
       }
     triggers {
